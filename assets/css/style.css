@@ -2,10 +2,12 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     --primary-color: #0f1b4c;
     font-size: 62.5%;
     font-family: "Poppins";
+    scroll-behavior: smooth;
 }
 
 /* Common */
@@ -53,7 +55,7 @@ a {
 .hero-wrap {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 90px);
     background: #e6f0ff;
     position: relative;
 }
