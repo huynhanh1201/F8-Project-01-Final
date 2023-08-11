@@ -664,20 +664,23 @@ header {
 }
 
 .footer .img {
-    margin-left: -12px;
-}
-
-.footer .img .icon:hover {
-    border-radius: 12px;
-    background: #ccc;
+    display: flex;
+    margin-left: -16px;
 }
 
 .footer .icon {
+    margin-left: 16px;
     width: 25px;
     height: 25px;
     box-sizing: content-box;
     display: inline-block;
     padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.footer .img .icon:hover {
+    background: #ebebeb;
 }
 
 .footer .row {
