@@ -42,6 +42,13 @@ a {
     display: flex;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 2);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* Header */
 
 .fix-header {
@@ -390,6 +397,7 @@ a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    word-break: break-all;
 }
 
 .featured .info {
@@ -606,6 +614,7 @@ a {
 }
 
 .subscription .info {
+    width: 650px;
     padding-left: 80px;
 }
 
